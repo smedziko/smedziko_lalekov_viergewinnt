@@ -4,3 +4,4 @@
 * README Datei hat gefehlt
 * Arbeitsberichte für jedes Teammitglied im Format .md fehlen
 * Daten zum Klassendiagramm fehlen :(
+* .gitignore Datei fehlt
