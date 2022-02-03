@@ -12,4 +12,7 @@ public class Spieler {
     public String getName() {
         return name;
     }
+    public Spielstein[] getSpielstein(){
+        return spielstein;
+    }
 }
