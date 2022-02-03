@@ -5,8 +5,9 @@ public class Spieler {
     private Spielstein[] spielstein = new Spielstein[21];
 
 
-    public void Spieler(String name, Spielstein spielstein){
-
+    public Spieler(String name, Spielstein[] spielstein) {
+        this.name = name;
+        this.spielstein = spielstein;
     }
 
     public String getName() {
