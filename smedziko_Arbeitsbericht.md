@@ -17,3 +17,12 @@
 ###### Klassen laut eigenem Klassendiagramm erstellt
 
 ###### View-Klassen bearbeiten
+
+--------------------------------
+
+# 03.02.2022 - Arbeitsbericht
+
+###### Neues Klassendiagramm erstellt
+
+###### Klassen laut neuem Klassendiagramm bearbeitet
+
