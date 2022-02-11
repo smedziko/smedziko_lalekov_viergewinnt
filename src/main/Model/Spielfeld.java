@@ -23,21 +23,19 @@ public class Spielfeld {
     public int werfen(int spalte, int zeile, int spielsteine[][]) {
         int x = spielfeld.length - 1;
         boolean fortsetzen = true;
-        while (x>=0 && fortsetzen==true)
-        {
-            if(spielfeld[x][spalte] == 0 )
-            {
-                spielfeld[x][spalte] = ;
+        while (x >= 0 && fortsetzen == true) {
+            if (spielfeld[x][spalte] == 0) {
+
                 fortsetzen = false;
             }
 
-            if(x<0){
+            if (x < 0) {
                 System.out.println("Stein konnte nicht gesetzt werden");
             }
         }
+        return 0;
     }
 
-    public int gewinnbedingung(int spielsteine[][]) {
 
-    }
+
 }
