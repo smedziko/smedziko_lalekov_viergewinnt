@@ -26,3 +26,9 @@
 
 ###### Klassen laut neuem Klassendiagramm bearbeitet
 
+--------------------------------
+
+# 11.02.2022 - Arbeitsbericht
+
+###### GUI Anwendung im Scenebuilder (viergewinnt.fxml)
+
