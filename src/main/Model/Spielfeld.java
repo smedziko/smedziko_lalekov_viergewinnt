@@ -77,7 +77,7 @@ public class Spielfeld {
                 for (int j = 0; j < feld.length; j++) {
                     if (testHoriz(i, j, spielerid) || testVert(i, j, spielerid) || testDiag(i, j, spielerid)) {
                         ret = true;
-                    }
+                    }//
 
                 }
             }
