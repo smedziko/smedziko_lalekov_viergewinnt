@@ -27,4 +27,9 @@
 ##### Methoden:
 ##### int werfen(spalte, zeile, spielstein);
 ##### int gewonnen(spielstein)
+
+# 11.02.2022 - Arbeitsbericht
+#### Spielfeld Klasse fast fertig implementiert
+#### Vergleichmethoden, Abprüfen, Setzen
+#### Kommentare für jede Methode
         
