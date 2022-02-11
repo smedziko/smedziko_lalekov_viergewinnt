@@ -2,7 +2,7 @@ package main.Model;
 
 public class Spieler {
     //Name des Spielers
-    private String name;
+    private final String name;
     //Spielfeld
     private Spielstein[] spielstein = new Spielstein[21];
 

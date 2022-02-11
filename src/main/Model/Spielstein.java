@@ -3,19 +3,19 @@ package main.Model;
 import java.awt.*;
 
 public class Spielstein {
-    private char zeichen;
-    private Color color;
+    private final char zeichen;
+    private final String color;
 
-    public Spielstein(char zeichen, Color color) {
+    public Spielstein(char zeichen, String color) {
         this.zeichen = zeichen;
-        this.color=color;
+        this.color= String.valueOf(color);
     }
 
     public char getZeichen() {
         return zeichen;
     }
 
-    public Color getColor() {
+    public String getColor() {
         return color;
     }
 }
