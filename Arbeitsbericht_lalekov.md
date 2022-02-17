@@ -32,4 +32,9 @@
 #### Spielfeld Klasse fast fertig implementiert
 #### Vergleichmethoden, Abprüfen, Setzen
 #### Kommentare für jede Methode
+
+# 17.02.2022 - Arbeitsbericht
+#### zusätzliche Kommentare
+#### Probleme in Spieler und Spielerfeld Klasse gelöst
+
         

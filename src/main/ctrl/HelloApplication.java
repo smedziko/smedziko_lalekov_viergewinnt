@@ -26,9 +26,10 @@ public class HelloApplication extends Application {
         Spieler spieler2 = new Spieler("Sheeee", 3);
 
         Scanner sc = new Scanner(System.in);
-        for (int i = 1; i < 3; i++) {
+        for (int i = 1; i < 5; i++) {
             System.out.println(spieler1.getName() + ", Your turn\n");
             spielfeld.Ausgabe();
+            System.out.println();
 
 
         }
