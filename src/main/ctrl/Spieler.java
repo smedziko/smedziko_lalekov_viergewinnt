@@ -1,4 +1,4 @@
-package main.Model;
+package main.ctrl;
 
 public class Spieler {
     //Name des Spielers
