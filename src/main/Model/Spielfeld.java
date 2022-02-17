@@ -86,7 +86,9 @@ public class Spielfeld {
             return ret;
         }
         return ret;
+
     }
+
     //Testen ob einsetzen horizontal möglich ist
     public boolean testHoriz(int x, int y, int Spieler) {
         boolean ret = false;
@@ -99,5 +101,31 @@ public class Spielfeld {
         }
         return ret;
 
+    }
+    //Testen ob einsetzen vertikal möglich ist
+    public boolean testVert(int x, int y, int Spieler) {
+        boolean ret = false;
+        if (x + 3 < feld.length) {
+            if (feld[x][y] == Spieler && feld[x+1][y] == Spieler && feld[x+2][y] == Spieler && feld[x+3][y] == Spieler) {
+                ret = true;
+            }
+        }
+        return ret;
+    }
+    //Testen ob einsetzen diagonal möglich ist
+    public boolean testDiag(int x, int y, int Spieler) {
+        boolean ret = false;
+        if (x + 3 < feld.length && y + 3 < feld.length) {
+            if (feld[x][y] == Spieler && feld[x+1][y+1] == Spieler && feld[x+2][y+2] == Spieler && feld[x+3][y+3] == Spieler) {
+                ret = true;
+            }
+        }
+
+        if (x - 3 >= 0 && y + 3 < feld.length) {
+            if (feld[x][y] == Spieler && feld[x-1][y+1] == Spieler && feld[x-2][y+2] == Spieler && feld[x-3][y+3] == Spieler) {
+                ret = true;
+            }
+        }
+        return ret;
     }
 }
