@@ -4,8 +4,6 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import main.Model.Spieler;
-import main.Model.Spielfeld;
 
 import java.io.IOException;
 import java.util.Scanner;

@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -10,8 +11,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane layoutX="-1.0" layoutY="112.0" prefHeight="505.0" prefWidth="859.0">
         <columnConstraints>
@@ -244,7 +244,7 @@
             </Circle>
          </children>
       </GridPane>
-      <Label layoutX="256.0" layoutY="14.0" prefHeight="48.0" prefWidth="346.0" text="Vier gewinnt - GUI Anwendung">
+      <Label layoutX="256.0" layoutY="7.0" prefHeight="48.0" prefWidth="346.0" text="Vier gewinnt - GUI Anwendung">
          <font>
             <Font size="25.0" />
          </font>
@@ -256,5 +256,11 @@
       <Button fx:id="button5Spalte5" layoutX="514.0" layoutY="62.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="5" />
       <Button fx:id="button6Spalte6" layoutX="632.0" layoutY="62.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="6" />
       <Button fx:id="button7Spalte7" layoutX="757.0" layoutY="62.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="7" />
+      <ButtonBar layoutX="327.0" layoutY="635.0" prefHeight="40.0" prefWidth="186.0">
+        <buttons>
+          <Button fx:id="restartbtn" mnemonicParsing="false" text="Restart" />
+            <Button fx:id="helpbtn" mnemonicParsing="false" text="Help" />
+        </buttons>
+      </ButtonBar>
    </children>
 </AnchorPane>

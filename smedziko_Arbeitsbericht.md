@@ -32,3 +32,10 @@
 
 ###### GUI Anwendung im Scenebuilder (viergewinnt.fxml)
 
+---------------------------------
+##### Kommentieren von Methoden, Klasse,...
+##### .fxml Datei bearbeitet
+##### Spieler/Spielfeld/Spielstein Klasse
+##### HelloApplication bearbeitet
+
+
