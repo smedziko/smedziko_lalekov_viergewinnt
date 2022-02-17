@@ -1,4 +1,4 @@
-package main.Model;
+package main.ctrl;
 
 import java.util.Arrays;
 
