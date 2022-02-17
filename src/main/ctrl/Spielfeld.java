@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Spielfeld Klasse
 public class Spielfeld {
 
-    private int[][] feld = null;
+    private final int[][] feld;
 
     //Spielfeld Konstruktor
     public Spielfeld(int x, int y) {
